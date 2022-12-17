@@ -36,6 +36,7 @@ header p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     width: 100%;
+    z-index: 1;
 
 }
 
@@ -45,6 +46,7 @@ header p {
     width: 320px;
     height: auto;
     transition: all 0.5s ease-in-out;
+    z-index:2;
 }
 
 .item:hover 
@@ -64,6 +66,7 @@ h2 {
     margin-top: -20px;
     font-size: 32px;
     font-weight: bold;
+    background-color: black;
 
 
 }
