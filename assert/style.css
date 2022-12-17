@@ -39,19 +39,20 @@ header p {
 
 }
 
-.main-card .card-one,
-.card-two,
-.card-three,
-.card-four,
-.card-five,
-.card-six {
+.item {
     margin: 30px;
     border: 1px dashed white;
     width: 320px;
     height: auto;
+    transition: all 0.5s ease-in-out;
 }
 
-.main-card .card-one .card-two .card-three .card-four .card-five .card-six,
+.item:hover 
+{
+    box-shadow: inset 0px 0px 8px rgba(232,102,236, 1) , 0 0 15px rgba(232,102,236, 1);
+}
+
+.main-card.item,
 h2 {
     color: var(--title-par-color);
     margin: 8px;
@@ -67,7 +68,7 @@ h2 {
 
 }
 
-.main-card .card-one .card-two .card-three .card-four .card-five .card-six,
+.main-card.item,
 p {
     margin: 10px;
     color: var(--title-par-color);
@@ -75,7 +76,7 @@ p {
     font-weight: bold;
 }
 
-.main-card .card-one .card-two .card-three .card-four .card-five .card-six,
+.main-card.item,
 pre {
     margin: 10px;
     color: white;
