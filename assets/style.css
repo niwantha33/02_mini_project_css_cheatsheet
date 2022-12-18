@@ -99,3 +99,10 @@ pre {
     text-align:center;
     color: var(--title-par-color); 
 }
+
+@media (prefers-contrast: more) {
+    .main-card.item,
+h2{
+      outline: 2px solid black;
+    }
+  }
